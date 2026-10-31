@@ -20,6 +20,6 @@ This repository is marketing for The Governor’s Desk. Keep application code, b
 
 Use simple static HTML/CSS/JavaScript unless a real need justifies more. Keep all deployable assets in `docs/`; use relative URLs compatible with a GitHub Pages project subpath. Keep design/reference files outside that folder. Avoid trackers and external assets by default.
 
-GitHub default branch is `main`. This separate website repo has no `ScriptBased` integration branch. Bootstrap is recorded by WP-WEBSITE-SETUP; future substantive work uses a focused branch and commit. The product repo's branch and release conventions do not create application branches here.
+Use `main` directly for website work. Commit and push completed changes on `main`; do not create feature branches or PRs unless the user specifically requests them. This separate website repo has no `ScriptBased` integration branch. Keep only `main` locally and remotely during normal work. The product repo's branch and release conventions do not apply here.
 
 Verify changed pages in a browser, including a narrow viewport, links, readable text and focus styles. Enable or change Pages/domain configuration only within the user's authorized publishing scope. Keep the root README clear about whether the site is actually live.
