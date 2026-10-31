@@ -1,0 +1,9 @@
+# Local tooling and preview artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/
+artifacts/
+*.log
+.env
+.env.*
