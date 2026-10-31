@@ -12,6 +12,9 @@ This repository is marketing for The Governor’s Desk. Keep application code, b
 - The site describes the product; it does not run game automation in the browser.
 - Treat the mock rebrand as design reference, not proof of implemented app UI or features.
 - Never invent testimonials, download counts, public releases, supported workflows or validation claims.
+- Public copy should read like a product marketing site. Do not label it as a portfolio or discuss why its owner is presenting it.
+- Do not add pictures, GIFs, video sections or placeholders for missing marketing media unless requested later.
+- Keep the fictional download-request address as display text, without mailto, forms, app-repository links or a real download. Identify it locally as mock contact, without framing the whole site as a demo.
 
 ## Implementation and publishing
 
