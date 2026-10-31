@@ -4,7 +4,7 @@ Standalone public marketing website for The Governor’s Desk, a Windows desktop
 
 ## Status
 
-Complete responsive product presentation: workflows, operating approach, requirements, FAQ and a mock download-request contact. GitHub Pages publication is being verified. Intended URL: https://shadeslayer1467.github.io/governors-desk-website/.
+Complete responsive product presentation: workflows, operating approach, requirements, FAQ and a mock download-request contact. Published on GitHub Pages: **https://readtechsolutions.com/governors-desk-website/**.
 
 No application repository is linked, imported or deployed. There is no installer, contact submission, mailto link, tracker or backend. The requested fictional address `support@TheGovenorsDesk.com` is display text only, with a local mock-contact note. Public product copy does not discuss the owner's personal use of this website.
 
@@ -29,4 +29,6 @@ Open `http://127.0.0.1:8766/`. Check desktop and phone widths, fragment navigati
 
 ## Publishing
 
-GitHub Pages uses the **main** branch and **/docs** folder. Do not publish the repository root or connect the site to the sibling application's repository. Future changes to `docs/` on `main` will publish once Pages is configured. The fictional email is not a verified domain or mailbox, and the website does not promise actual download delivery.
+GitHub Pages uses the **main** branch and **/docs** folder. Do not publish the repository root or connect the site to the sibling application's repository. Pages is configured and HTTPS is enforced. Future changes to `docs/` on `main` publish automatically. The project site inherits the account’s existing custom domain; no domain or personal-homepage source was changed. The fictional email is not a verified domain or mailbox, and the website does not promise actual download delivery.
+
+Verified publication and browser checks are recorded in [VERIFICATION.md](VERIFICATION.md).
