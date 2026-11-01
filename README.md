@@ -10,7 +10,7 @@ No application repository is linked, imported or deployed. There is no installer
 
 ## Files
 
-- `docs/`: the complete publishable site (HTML, CSS, SVG favicon and `.nojekyll`).
+- `docs/`: the complete publishable site (HTML, CSS, section-navigation JavaScript, SVG favicon and `.nojekyll`).
 - `design/rebrand-preview/`: original visual direction, kept outside the publishing folder.
 - `PRODUCT_REVIEW.md`: WP-WEBSITE-LAUNCH scope and acceptance.
 - `AGENTS.md`: website-specific implementation instructions.
@@ -26,6 +26,8 @@ python -m http.server 8766 --bind 127.0.0.1 --directory docs
 ```
 
 Open `http://127.0.0.1:8766/`. Check desktop and phone widths, fragment navigation, FAQ keyboard behavior, loaded styles and horizontal overflow. All local asset paths are relative for project-site hosting.
+
+Section links scroll and move keyboard focus without adding a hash to the address bar. Existing fragment links still open their section, then clean the URL. With JavaScript disabled, native anchor navigation remains available.
 
 ## Publishing
 

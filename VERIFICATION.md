@@ -25,3 +25,7 @@ WP-WEBSITE-LAUNCH. Website source commit: `4a0062e`.
 This publication distributes the website only. The mock contact is display text, not an operating mailbox or download channel. There is no app installer or backend. No live gameplay or application-release verification is part of website publishing.
 
 This verification record and README update do not alter the deployed `docs/` source tree.
+
+## Clean section URLs — 2026-11-01
+
+Added `docs/navigation.js` to retain section scrolling and keyboard focus without persistent URL hashes or extra section history entries. Browser checks passed for mouse navigation to Workflows, Enter activation to Approach, a 390px download-request jump to Contact, and a previously shared `#approach` URL. The deep link reached the section at the 24px scroll offset before its hash was removed. Query parameters were preserved and phone layout had no horizontal overflow. Native anchors remain the fallback when JavaScript is disabled. JavaScript syntax and whitespace checks passed.
