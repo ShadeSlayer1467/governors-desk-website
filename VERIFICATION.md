@@ -29,3 +29,7 @@ This verification record and README update do not alter the deployed `docs/` sou
 ## Clean section URLs — 2026-11-01
 
 Added `docs/navigation.js` to retain section scrolling and keyboard focus without persistent URL hashes or extra section history entries. Browser checks passed for mouse navigation to Workflows, Enter activation to Approach, a 390px download-request jump to Contact, and a previously shared `#approach` URL. The deep link reached the section at the 24px scroll offset before its hash was removed. Query parameters were preserved and phone layout had no horizontal overflow. Native anchors remain the fallback when JavaScript is disabled. JavaScript syntax and whitespace checks passed.
+
+## Social sharing image — 2026-11-01
+
+Added an original generated social-preview illustration and server-readable Open Graph / large-image card metadata. PNG dimensions: 1735 × 906 (approximately 1.91:1); size: 2,352,903 bytes. Image text was visually inspected for correct name and tagline. The image uses a versioned public HTTPS URL with descriptive alt text and matching dimension/type tags. It is not placed in the page body. Actual Discord rendering and refresh of an already-posted embed are controlled by Discord, not by this website.

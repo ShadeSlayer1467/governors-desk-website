@@ -17,6 +17,8 @@ No application repository is linked, imported or deployed. There is no installer
 
 No photos, GIFs, video areas or placeholders for future media are included. The desk emblem is inline SVG, not a substitute screenshot or simulated app view.
 
+Link-sharing previews use `docs/assets/governors-desk-social-v1.png`, an original generated desk-and-kingdom illustration, through Open Graph and large-image card metadata. This asset is for link previews only; it adds no image section to the page.
+
 ## Preview and verification
 
 No dependencies or build step. With Python installed:
